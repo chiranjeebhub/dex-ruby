@@ -12,8 +12,8 @@ import { MyContext } from "./Context";
 // import ChangePassword from "./pages/ChangePassword";
 // import UploadDocs from "./pages/UploadDocs";
 // import AddPhone from "./pages/AddPhone";
-// import SignIn from "./pages/SignIn";
-// import SignUp from "./pages/SignUp";
+import SignIn from "./pages/SignIn";
+import SignUp from "./pages/SignUp";
 
 function App() {
   const [loggedIn, setLoggedIn] = useState("no");
@@ -31,9 +31,9 @@ function App() {
           <Route path="/profile" component={Profile} />
           <Route path="/change_password" component={ChangePassword} />
           <Route path="/upload_docs" component={UploadDocs} />
-          <Route path="/add_phone" component={AddPhone} />
+          <Route path="/add_phone" component={AddPhone} />*/}
           <Route path="/signin" component={SignIn} />
-          <Route path="/signup" component={SignUp} /> */}
+          <Route path="/signup" component={SignUp} />
         </HashRouter>
       </div>
     </MyContext.Provider>
