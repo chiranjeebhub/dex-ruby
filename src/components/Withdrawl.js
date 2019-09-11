@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Deposit = () => {
+const Withdrawl = () => {
   const [selected, setSelected] = useState("");
   const showDetails = () => {
     if (selected !== "") {
@@ -167,4 +167,4 @@ const Deposit = () => {
   );
 };
 
-export default Deposit;
+export default Withdrawl;
