@@ -1,0 +1,29 @@
+.center-pass-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 45vh;
+}
+
+.changepass-heading {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  color: #186ab4;
+  font-weight: bold;
+  text-align: center;
+}
+
+.input-style {
+  border-width: 2px;
+  border-color: #186ab4;
+}
+
+@media only screen and (max-width: 600px) {
+  .center-pass-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px;
+  }
+}
