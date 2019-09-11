@@ -3,7 +3,7 @@ import "./css/index.css";
 import { HashRouter, Route } from "react-router-dom";
 
 import Trade from "./pages/Trade";
-// import Funds from "./pages/Funds";
+import Funds from "./pages/Funds";
 // import History from "./pages/History";
 import Home from "./pages/Home";
 
@@ -26,8 +26,8 @@ function App() {
         <HashRouter basename="/">
           <Route exact path="/" component={Home} />
           <Route path="/trade" component={Trade} />
-          {/* <Route path="/funds" component={Funds} />
-          <Route path="/history" component={History} />*/}
+          <Route path="/funds" component={Funds} />
+          {/* <Route path="/history" component={History} /> */}
 
           <Route path="/change_password" component={ChangePassword} />
           <Route path="/upload_docs" component={UploadDocs} />
