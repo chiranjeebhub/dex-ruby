@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./css/index.css";
 import { HashRouter, Route } from "react-router-dom";
 
-// import Trade from "./pages/Trade";
+import Trade from "./pages/Trade";
 // import Funds from "./pages/Funds";
 // import History from "./pages/History";
 import Home from "./pages/Home";
@@ -25,8 +25,8 @@ function App() {
       <div className="App">
         <HashRouter basename="/">
           <Route exact path="/" component={Home} />
-          {/* <Route path="/trade" component={Trade} />
-          <Route path="/funds" component={Funds} />
+          <Route path="/trade" component={Trade} />
+          {/* <Route path="/funds" component={Funds} />
           <Route path="/history" component={History} />*/}
 
           <Route path="/change_password" component={ChangePassword} />
